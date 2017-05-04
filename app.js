@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 function createNewDeck() {
     let Deck = [],
         k = 0;
