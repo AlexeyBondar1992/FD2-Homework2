@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    font-size: 16pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p {
+    font-size: 20pt;
+    font-weight: 600;
+    margin: 10px;
+}
+table, td, th {
+    border: 1px solid #000;
+    border-spacing: 0;
+    border-collapse: collapse;
+
+    padding: 5px;
+}
+td:nth-child(odd) {
+    text-align: right;
+}
+td:nth-child(even) {
+    text-align: left;
+}
+td {
+    width: 500px;
+    font-size: 40pt;
+}
